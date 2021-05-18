@@ -3,29 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		040D3DCC264E83C40015CE58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D3DCB264E83C40015CE58 /* AppDelegate.swift */; };
 		040D3DCE264E83C40015CE58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D3DCD264E83C40015CE58 /* SceneDelegate.swift */; };
-		040D3DD0264E83C40015CE58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D3DCF264E83C40015CE58 /* ViewController.swift */; };
 		040D3DD3264E83C40015CE58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040D3DD1264E83C40015CE58 /* Main.storyboard */; };
 		040D3DD6264E83C40015CE58 /* WheatherForecastTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040D3DD4264E83C40015CE58 /* WheatherForecastTest.xcdatamodeld */; };
 		040D3DD8264E83C70015CE58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040D3DD7264E83C70015CE58 /* Assets.xcassets */; };
 		040D3DDB264E83C70015CE58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040D3DD9264E83C70015CE58 /* LaunchScreen.storyboard */; };
+		040D3DE4264E8C690015CE58 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D3DE3264E8C680015CE58 /* CustomTabBar.swift */; };
+		040D3DE8264ED54B0015CE58 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D3DE7264ED54B0015CE58 /* MainViewController.swift */; };
+		040D3DEB264ED55F0015CE58 /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D3DEA264ED55F0015CE58 /* ForecastViewController.swift */; };
+		040D3DF5265162490015CE58 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D3DF4265162480015CE58 /* Weather.swift */; };
+		040D3DFE265192320015CE58 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D3DFD265192310015CE58 /* Persistance.swift */; };
+		040D3E082651BCC70015CE58 /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D3E062651BCC70015CE58 /* ForecastCell.swift */; };
+		040D3E092651BCC70015CE58 /* ForecastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040D3E072651BCC70015CE58 /* ForecastCell.xib */; };
+		040D3E0C2651C2F00015CE58 /* ForecastWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D3E0B2651C2F00015CE58 /* ForecastWeatherModel.swift */; };
+		27F619AD9730EBD60B0A8AA4 /* Pods_WheatherForecastTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ECBFCB18E8910D615C0DBA /* Pods_WheatherForecastTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		040D3DC8264E83C40015CE58 /* WheatherForecastTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheatherForecastTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040D3DCB264E83C40015CE58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		040D3DCD264E83C40015CE58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		040D3DCF264E83C40015CE58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		040D3DD2264E83C40015CE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040D3DD5264E83C40015CE58 /* WheatherForecastTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WheatherForecastTest.xcdatamodel; sourceTree = "<group>"; };
 		040D3DD7264E83C70015CE58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040D3DDA264E83C70015CE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040D3DDC264E83C70015CE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040D3DE3264E8C680015CE58 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		040D3DE7264ED54B0015CE58 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		040D3DEA264ED55F0015CE58 /* ForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
+		040D3DF4265162480015CE58 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		040D3DFD265192310015CE58 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		040D3E062651BCC70015CE58 /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
+		040D3E072651BCC70015CE58 /* ForecastCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastCell.xib; sourceTree = "<group>"; };
+		040D3E0B2651C2F00015CE58 /* ForecastWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeatherModel.swift; sourceTree = "<group>"; };
+		26ECBFCB18E8910D615C0DBA /* Pods_WheatherForecastTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WheatherForecastTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFB5772731D8434D3A9731E /* Pods-WheatherForecastTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherForecastTest.debug.xcconfig"; path = "Target Support Files/Pods-WheatherForecastTest/Pods-WheatherForecastTest.debug.xcconfig"; sourceTree = "<group>"; };
+		3D4ADFFA8AAA76D5BC7481D3 /* Pods-WheatherForecastTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherForecastTest.release.xcconfig"; path = "Target Support Files/Pods-WheatherForecastTest/Pods-WheatherForecastTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F619AD9730EBD60B0A8AA4 /* Pods_WheatherForecastTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +63,8 @@
 			children = (
 				040D3DCA264E83C40015CE58 /* WheatherForecastTest */,
 				040D3DC9264E83C40015CE58 /* Products */,
+				72944E5B5B111A75698B7D35 /* Pods */,
+				33C4CBC84CB3FA72E4720ABB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +81,9 @@
 			children = (
 				040D3DCB264E83C40015CE58 /* AppDelegate.swift */,
 				040D3DCD264E83C40015CE58 /* SceneDelegate.swift */,
-				040D3DCF264E83C40015CE58 /* ViewController.swift */,
+				040D3E042651BC730015CE58 /* Forecast */,
+				040D3E052651BC870015CE58 /* Main */,
+				040D3DF726516A7F0015CE58 /* Models */,
 				040D3DD1264E83C40015CE58 /* Main.storyboard */,
 				040D3DD7264E83C70015CE58 /* Assets.xcassets */,
 				040D3DD9264E83C70015CE58 /* LaunchScreen.storyboard */,
@@ -70,6 +93,52 @@
 			path = WheatherForecastTest;
 			sourceTree = "<group>";
 		};
+		040D3DF726516A7F0015CE58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				040D3DF4265162480015CE58 /* Weather.swift */,
+				040D3E0B2651C2F00015CE58 /* ForecastWeatherModel.swift */,
+				040D3DE3264E8C680015CE58 /* CustomTabBar.swift */,
+				040D3DFD265192310015CE58 /* Persistance.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		040D3E042651BC730015CE58 /* Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				040D3DEA264ED55F0015CE58 /* ForecastViewController.swift */,
+				040D3E062651BCC70015CE58 /* ForecastCell.swift */,
+				040D3E072651BCC70015CE58 /* ForecastCell.xib */,
+			);
+			path = Forecast;
+			sourceTree = "<group>";
+		};
+		040D3E052651BC870015CE58 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				040D3DE7264ED54B0015CE58 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		33C4CBC84CB3FA72E4720ABB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26ECBFCB18E8910D615C0DBA /* Pods_WheatherForecastTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72944E5B5B111A75698B7D35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB5772731D8434D3A9731E /* Pods-WheatherForecastTest.debug.xcconfig */,
+				3D4ADFFA8AAA76D5BC7481D3 /* Pods-WheatherForecastTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040D3DDF264E83C70015CE58 /* Build configuration list for PBXNativeTarget "WheatherForecastTest" */;
 			buildPhases = (
+				3DD4C7BE8A8E57AF0D12DC79 /* [CP] Check Pods Manifest.lock */,
 				040D3DC4264E83C40015CE58 /* Sources */,
 				040D3DC5264E83C40015CE58 /* Frameworks */,
 				040D3DC6264E83C40015CE58 /* Resources */,
+				654D11C53981F7273152A011 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040D3E092651BCC70015CE58 /* ForecastCell.xib in Resources */,
 				040D3DDB264E83C70015CE58 /* LaunchScreen.storyboard in Resources */,
 				040D3DD8264E83C70015CE58 /* Assets.xcassets in Resources */,
 				040D3DD3264E83C40015CE58 /* Main.storyboard in Resources */,
@@ -135,15 +207,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DD4C7BE8A8E57AF0D12DC79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WheatherForecastTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		654D11C53981F7273152A011 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheatherForecastTest/Pods-WheatherForecastTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheatherForecastTest/Pods-WheatherForecastTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WheatherForecastTest/Pods-WheatherForecastTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		040D3DC4264E83C40015CE58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				040D3DD6264E83C40015CE58 /* WheatherForecastTest.xcdatamodeld in Sources */,
-				040D3DD0264E83C40015CE58 /* ViewController.swift in Sources */,
+				040D3DF5265162490015CE58 /* Weather.swift in Sources */,
+				040D3DE4264E8C690015CE58 /* CustomTabBar.swift in Sources */,
 				040D3DCC264E83C40015CE58 /* AppDelegate.swift in Sources */,
+				040D3E082651BCC70015CE58 /* ForecastCell.swift in Sources */,
+				040D3E0C2651C2F00015CE58 /* ForecastWeatherModel.swift in Sources */,
 				040D3DCE264E83C40015CE58 /* SceneDelegate.swift in Sources */,
+				040D3DFE265192320015CE58 /* Persistance.swift in Sources */,
+				040D3DE8264ED54B0015CE58 /* MainViewController.swift in Sources */,
+				040D3DEB264ED55F0015CE58 /* ForecastViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +407,7 @@
 		};
 		040D3DE0264E83C70015CE58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFB5772731D8434D3A9731E /* Pods-WheatherForecastTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +427,7 @@
 		};
 		040D3DE1264E83C70015CE58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4ADFFA8AAA76D5BC7481D3 /* Pods-WheatherForecastTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
